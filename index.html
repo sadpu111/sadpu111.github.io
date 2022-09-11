@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta na me="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Mometum App</title>
+</head>
+<body>
+  <h1 id = "date"></h1>
+  <h1 id = "clock">00:00</h1>
+  <h1 id = "greeting" class = "hidden"></h1>
+  <form id = "login-form" class = "hidden">
+    <input
+      class="inputName"
+      required
+      maxlength="15"
+      type="text"
+      placeholder="What is your name?" />
+    <button class="loginBtn" >Log In</button>
+  </form>
+  <form id="todo-form" class="hidden">
+    <input class="inputTodos" type="text" placeholder="Write a To Do and Press Enter" required />
+  </form>
+  <div>
+   <ul id="todo-list" class="hidden">🎬 ToDo List 🎬</ul> 
+  </div>  
+  <div id="quote">
+    <span class="quote"></span>     
+    <span class="movie"></span>
+  </div>
+  <div id="weather">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <script type="module" src="JS/greeting.js"></script>
+  <script src="JS/date.js"></script>
+  <script src="JS/clock.js"></script>
+  <script src="JS/backgroud.js"></script>
+  <script type="module" src="JS/todo.js"></script>
+  <script src="JS/weather.js"></script>
+</body>
+</html>
+
