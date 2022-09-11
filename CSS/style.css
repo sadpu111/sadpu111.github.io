@@ -1,0 +1,136 @@
+body {
+    color: white;
+    background-repeat: no-repaet ;
+    background-size: cover;
+}
+
+#date {
+    position: absolute;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%, -50%);
+}
+
+#clock {
+    position: absolute;
+    left: 50%;
+    top: 27%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+}
+
+#weather {
+    position: absolute;
+    left: 50%;
+    top: 44%;
+    transform: translate(-50%, -50%);  
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#login-form {
+    position: absolute;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);  
+}
+
+#greeting {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 55px;
+}
+
+#todo-form {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%); 
+}
+
+#todo-list {
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#logoutBtn {
+    color: white;
+    background: transparent;
+
+}
+
+.inputName {
+    color: white;
+    width: 250px;
+    height: 35px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    text-align : center;
+    font-size: 22px;
+}
+
+.inputName::placeholder {
+    color: white;
+    font-style: italic;
+    font-size: 22px;
+
+}
+
+.loginBtn {
+    color: white;
+    background: transparent;
+    height: 40px;
+    font-weight: bold;
+}
+
+.inputTodos {
+    color: white;
+    width: 400px;
+    height: 35px;
+    border-color: rgba(189, 194, 198, 0.949);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    text-align : center;
+    background: transparent;
+    font-size: 22px;
+}
+
+.inputTodos::placeholder {
+    color: rgb(194, 191, 191);
+    font-style: italic;
+    font-size: 22px;
+
+}
+
+.quote {
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%); 
+    width: 2000px;
+    text-align : center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic; 
+    font-size: 23px; 
+}
+
+.movie {
+    position: absolute;
+    left: 50%;
+    top: 93%;
+    transform: translate(-50%, -50%);   
+    font-size: 16px; 
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
